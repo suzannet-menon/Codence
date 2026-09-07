@@ -1,0 +1,19 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test:gemini": "node scripts/test-gemini.js",
+    "test:scorer": "node services/test-scorer.js",
+    "test:webhook": "node scripts/test-webhook.js"
+  },
+  "dependencies": {
+    "@google/genai": "latest",
+    "cors": "^2.8.5",
+    "dotenv": "latest",
+    "express": "^4.19.2",
+    "uuid": "^11.1.1"
+  }
+}

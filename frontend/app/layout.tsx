@@ -36,8 +36,8 @@ const sourceSerif4 = Source_Serif_4({
 });
 
 export const metadata: Metadata = {
-  title: "Codence AI",
-  description: "Frontend shell for Codence AI hackathon flow."
+  title: "Codence",
+  description: "Frontend shell for Codence hackathon flow."
 };
 
 export default function RootLayout({
